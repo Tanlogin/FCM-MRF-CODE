@@ -1,3 +1,10 @@
+
+% 求下图 t1~t4 平均值
+%
+%     t1
+% t3  x  t4
+%     t2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [out] = ave_neighbor(data, i, j)
     
     t = zeros(1,4);
